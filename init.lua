@@ -118,6 +118,11 @@ vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
 
+-- Set tab size to 4 ffs
+
+vim.opt['tabstop'] = 4
+vim.opt['shiftwidth'] = 4
+
 -- Enable break indent
 vim.o.breakindent = true
 
